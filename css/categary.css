@@ -1,0 +1,98 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/*ͷ��*/
+.cate-header {
+  width: 100%;
+  height: 44px;
+  background: url(../images/header-bg.png) repeat-x;
+  background-size: 2px 44px;
+  border-bottom: 1px solid #cccccc;
+  padding: 0 44px;
+  position: absolute;
+}
+.cate-header form {
+  width: 100%;
+  height: 44px;
+}
+.cate-header form input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 7px;
+  padding-left: 10px;
+}
+.cate-header .icon-back {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 40px;
+  height: 44px;
+  background-position: -20px 0;
+  padding: 12px 10px;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+.cate-header .icon-menu {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 40px;
+  height: 44px;
+  background-position: -60px 0;
+  padding: 12px 10px;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+/*����*/
+.categary {
+  width: 100%;
+  height: 100%;
+  padding-top: 44px;
+}
+.categary .categary-left {
+  width: 90px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.categary .categary-left > ul li > a {
+  display: block;
+  width: 90px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.categary .categary-left > ul .active a {
+  border-right: none;
+  color: #d8505c;
+}
+.categary .categary-right {
+  height: 100%;
+  padding: 10px;
+  overflow: hidden;
+}
+.categary .categary-right > a {
+  display: block;
+  width: 100%;
+}
+.categary .categary-right > a > img {
+  width: 100%;
+}
+.categary .categary-right .hot-product h3 {
+  font-size: 12px;
+}
+.categary .categary-right .hot-product ul > li {
+  width: 33.33%;
+  text-align: center;
+  float: left;
+  padding: 5px 0;
+}
+.categary .categary-right .hot-product ul > li img {
+  width: 62px;
+}

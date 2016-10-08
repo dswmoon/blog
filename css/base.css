@@ -1,0 +1,122 @@
+
+*,::before,::after {
+    margin: 0px;
+    padding: 0px;
+    /*内减模式*/
+    box-sizing: border-box;
+    /*兼容WebKit内核*/
+    -kebkit-box-sizing:border-box;
+    /*ie: -ms-
+        chrome:-webkit-;
+        firefox:-moz-;
+        opera:-o-;
+        safair:-webkit-;
+    */
+    /*去除移动端的点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    font-size: 14px;
+    color: #333333;
+    /*设置多个字 后面的都是备胎*/
+    font-family: "Microsoft Yahei",sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
+input {
+    border: 0 none;
+    outline: none;
+    /*去除表单默认的效果  在移动端*/
+    -webkit-appearance: none;
+}
+/*公共样式*/
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+
+/*公共样式 common css*/
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+
+.m-l10{
+    margin-left: 10px;
+}
+.m-r10{
+    margin-right: 10px;
+}
+.m-t10{
+    margin-top: 10px;
+}
+.m-b10{
+    margin-bottom: 10px;
+}
+.b-l{
+    border-left: 1px solid #ccc;
+}
+.b-r{
+    border-right: 1px solid #ccc;
+}
+.b-t{
+    border-top: 1px solid #ccc;
+}
+.b-b{
+    border-bottom: 1px solid #ccc;
+}
+
+
+/*清除浮动*/
+.clearfix::after,
+.clearfix::before{
+    content: "";
+    height: 0;
+    visibility: hidden;
+    line-height: 0;
+    clear: both;
+    display: block;
+}
+
+
+a[class^="icon-"],
+span[class^="icon-"] {
+    background: url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
